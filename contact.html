@@ -1,13 +1,29 @@
-<div class="w3-container w3-padding-32" id="contact">
-  <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
-  <p>Lets get in touch and talk about your next project.</p>
-  <form action="/action_page.php" target="_blank">
-    <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"><br>
-    <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email"><br>
-    <input class="w3-input w3-section w3-border" type="text" placeholder="Subject" required name="Subject"><br>
-    <input class="w3-input w3-section w3-border" type="text" placeholder="Comment" required name="Comment"><br><br>
-    <button class="w3-button w3-black w3-section" type="submit">
-      <i class="fa fa-paper-plane"></i> SEND MESSAGE
-    </button>
-  </form>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Us</title>
+    <style>
+      body {
+        background-color: lightblue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Lets get in touch!</h1>
+    <form>
+      <label for="name">Name: </label><br>
+      <input type="text" id="name" name="name"><br>
+      <label for="email">Email: </label><br>
+      <input type="text" id="email" name="email"><br>
+      <label for="subject">Subject: </label><br>
+      <input type="text" id="subject" name="subject"><br>
+      <label for="comment">Comment: </label><br>
+      <input type="text" id="comment" name="comment"><br><br>
+      <input type="submit" value="Submit">
+    </form>
+	<script src="index.js"></script>
+  </body>
+</html>
