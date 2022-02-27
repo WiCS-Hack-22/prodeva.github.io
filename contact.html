@@ -3,13 +3,34 @@
 <head>
 <link rel="icon" href="https://github.com/WiCS-Hack-22/prodeva.github.io/blob/main/images/logo.png?raw=true">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
 <style type="text/css">
 body {
     margin: 0;
-    text-align:center;
     font-family: Brandon Grotesque, Brandon Grotesque, sans-serif;
 }
-    
+form {
+    margin: 0;
+    font-family: Brandon Grotesque, Brandon Grotesque, sans-serif;
+    padding-left: 50px;
+}
+
+input[type=text] {
+  width: 50%;
+  background-color: rgba(209, 191, 158, 0.795);
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #FF9949;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
 .topnav {
     overflow: hidden;
     background-color: white;
@@ -80,6 +101,7 @@ body {
         background-color: lightblue;
       }
     </style>
+
   </head>
   <body>
     <div class="topnav">
@@ -88,7 +110,7 @@ body {
         <a href="https://www.classycareergirl.com/blog/" target="_blank">Blog</a>
         <a href="contact.html">Contact</a>
     </div>
-    <h1>Lets get in touch!</h1>
+    <h1 style="padding-left: 20px;">Lets get in touch!</h1>
     <form>
       <label for="name">Name: </label><br>
       <input type="text" id="name" name="name"><br>
@@ -103,4 +125,3 @@ body {
 	<script src="index.js"></script>
   </body>
 </html>
-
